@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* :root {
+  --blue: #00bcd4;
+  --black: #121212;
+  --dark-blue: #274548af;
+  --white: #fff;
+  --bg: #8c96a8;
+  --btn-hover: #029db1;
+  --bt-gray: #262626;
+  --btn-shadow:0px 10px 10px #7ca0a5;
+  --hover-shadow: 0 10px 10px #03819243;
+  --bg-form: #292929;
+  --tran-slate: translate(-4px);
+} */
+
+
+body {
+  background: #8faac4;
+}
+
+/* HEADER */
+.header {
+  background: #23497c;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+/* CONTAINER */
+.container {
+   width:60%;
+  padding: 18px 20px;
+  /* width: 45%; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.card.dark {
+  background: #333436;
+  color: white;
+}
+.card.black{
+  background-color: rgb(41, 40, 52);
+  color: white;
+}
+
+.card.gray {
+  background: #2c3745;
+  color: white;
+}
+
+.card h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* BUTTONS */
+button {
+  padding: 12px 25px;
+  background: #e6ad11;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition:all 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.footer {
+  background: #0c274a;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer .back {
+  background: #e6ad11;
+}
